@@ -1,0 +1,32 @@
+.singleTask {
+  text-align: left;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #bdbdbd;
+  box-shadow: 2px 2px 5px #b3b3b3;
+  background-color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  width: 80%;
+}
+
+.todo {
+  background-color: aliceblue;
+}
+
+.complete {
+  background-color: rgb(215, 241, 220);
+  text-decoration: line-through;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.taskClose {
+  font-size: 1.4rem;
+  color: #ff0000;
+  text-align: center;
+  margin: 5px 1px;
+  cursor: pointer;
+}
